@@ -4,8 +4,8 @@ const config = {
     appName: process.env.APP_NAME,
     appVersion: process.env.APP_VERSION,
     port: process.env.PORT || 3000,
-    mode: process.env.MODE_ENV || 'development'
-
+    mode: process.env.MODE_ENV || 'development',
+    bdHost: process.env.DB_HOST || 'localhost2'
 };
 
 console.log(config)
