@@ -50,4 +50,4 @@ for (const interfaceName in networkInterfaces) {
 //?----------- Uptime Information
 console.log("\nSystem Uptime :")
 console.log('-'.repeat(50))
-console.log(`System Uptime : ${os.uptime()} seconds`);
+console.log(`System Uptime : ${(os.uptime() / 60).toFixed(2)} minutes`);
