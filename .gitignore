@@ -1,2 +1,6 @@
 /node_module
-.env*
+.DS_Store
+.vscode/
+npm-debug.log*
+config.bat
+node_modules
